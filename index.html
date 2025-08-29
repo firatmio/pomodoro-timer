@@ -5,17 +5,20 @@
     <meta charset="UTF-8">
     <title>Pomodoro Timer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <div class="timer-container">
-        <h1>Pomodoro Timer</h1>
         <div id="timer">25:00</div>
         <div class="controls">
-            <button id="start">Start</button>
-            <button id="pause">Pause</button>
-            <button id="reset">Reset</button>
+            <button id="start"><i class="fa-solid fa-play"></i></button>
+            <button id="pause"><i class="fa-solid fa-pause"></i></i></button>
+            <button id="reset"><i class="fa-solid fa-stop"></i></button>
         </div>
+        <button class="fullscreen" id="fullscreen"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></button>
     </div>
     <script src="script.js"></script>
 </body>
