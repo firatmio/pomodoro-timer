@@ -26,7 +26,6 @@ function tick() {
     isWork = !isWork;
     timeLeft = isWork ? workTime : breakTime;
     updateDisplay();
-    alert(isWork ? 'Back to work!' : 'Time for a break!');
   }
 }
 
