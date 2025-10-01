@@ -1,14 +1,14 @@
 let workTime = 25 * 60
 let breakTime = 5 * 60
-let timer: number | null = null
+let timer = null
 let isWork = true
 let timeLeft = workTime
 
-const timerEl = document.getElementById('timer') as HTMLDivElement
-const startBtn = document.getElementById('start') as HTMLButtonElement
-const pauseBtn = document.getElementById('pause') as HTMLButtonElement
-const resetBtn = document.getElementById('reset') as HTMLButtonElement
-const fullscreenBtn = document.getElementById('fullscreen') as HTMLButtonElement
+const timerEl = document.getElementById('timer')
+const startBtn = document.getElementById('start')
+const pauseBtn = document.getElementById('pause')
+const resetBtn = document.getElementById('reset')
+const fullscreenBtn = document.getElementById('fullscreen')
 
 function updateDisplay() {
   const minutes = Math.floor(timeLeft / 60)
