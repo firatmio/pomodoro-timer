@@ -44,7 +44,7 @@ A minimal Pomodoro timer built with TypeScript, HTML, and CSS. Tracks work and b
 1. Clone the repository:
 ```bash
 git clone https://github.com/firatmio/pomodoro-timer
-cd pomodoro-ts
+cd pomodoro-timer
 ```
 
 
